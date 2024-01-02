@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +8,14 @@ body{
     background-color: #FBAB7E;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 }
-#input{
+
+#input {
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
-.inp{
+
+.inp {
     width: 300px;
     height: 40px;
     font-size: 25px;
@@ -20,6 +24,31 @@ body{
     box-shadow: 0 0 20px #a45d00;
     font-family: 'Varela Round', sans-serif;
 }
+
+.button-33 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-33:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
 .cube {
     width: 600px;
     height: 600px;
@@ -43,7 +72,6 @@ body{
     align-items: center;
     width: 50%;
     font-family: 'Varela Round', sans-serif;
-
 }
 
 img {
@@ -60,22 +88,24 @@ h1 {
 }
 
 #country {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10px;
     font-weight: bolder;
 }
-.infos{
+
+.infos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: center; 
+    height: 100vh; 
 }
+
 .infos-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
     font-family: 'Varela Round', sans-serif;
+    width: 90%;
 }
-
